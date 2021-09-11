@@ -1,0 +1,24 @@
+:root{
+    --primary:#fff;
+}
+
+.btn{
+    margin-top:-10px;
+    margin-left:25px;
+    padding:8px 20px;
+    outline:none;
+    border:none;
+    border-radius:4px;
+}
+
+.btn--primary{
+    background-color:orange;
+    color:red;
+    border:1px solid var(orange);
+}
+
+.btn-outline{
+    background-color:dark rgba(187, 134, 36, 0.692);
+    color:#fff;
+
+}

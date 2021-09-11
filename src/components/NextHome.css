@@ -1,0 +1,16 @@
+.navapart{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.imagearrange{
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    
+}
+
+.wordarrange{
+    margin-right:230px;
+    margin-top:-200px;
+}

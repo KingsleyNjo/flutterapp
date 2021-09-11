@@ -1,0 +1,66 @@
+.navbar{
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:16.5px;
+    position:relative;
+    top:-180px;
+    z-index:999;
+}
+
+.navbar-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
+    max-width:1500px;
+}
+
+.navbar-logo{
+    display:flex;
+    justify-self:start;
+    align-items:center;
+    cursor:pointer;
+    position:absolute;
+    left:-30px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content:end;
+    text-align:center;
+    list-style:none;
+    width:75vw;  /*separates the flutterwave logo from the navbar content (i.e give space in the middle)*/
+    margin-right:2rem;
+}
+
+.nav-item{
+    height:20px;
+}
+
+.nav-link{
+    color:#fff;
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    padding:10px 16.5px;
+    height:100%;
+}
+
+.nav-links:hover {
+    border-bottom: 4px solid orange;
+    color:#fff;
+    cursor:pointer;
+}
+
+.nav-item .nav-link{
+    color:#fff;
+}
+
+

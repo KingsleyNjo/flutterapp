@@ -1,0 +1,26 @@
+.entry-container{
+    color:#fff;
+   
+    
+}
+.entry{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
+.entry h1{
+    margin-bottom:25px;
+}
+
+.entry p{
+    font-weight:700;
+}
+.entry .clarify{
+    position: absolute;
+    right:650px;
+}
+
+

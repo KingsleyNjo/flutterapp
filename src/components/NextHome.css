@@ -14,3 +14,148 @@
     margin-right:230px;
     margin-top:-200px;
 }
+
+.wordarrange h1{
+    color:rgb(97, 97, 236);
+}
+
+.wholesection{
+    background-color:rgb(245, 245, 245);
+
+}
+
+
+.sectiontop{
+    padding-top:80px;
+    text-align:center;
+}
+
+.sectiontop h1{
+    color: rgb(97, 97, 236);
+
+}
+
+.sectiondiv{
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+.spacediv{
+    margin-left:100px;
+    margin-right:130px;
+    margin-top:35px;
+}
+
+.spacep p{
+    width:430px;
+    padding:15px 0;
+    font-size:16px;
+}
+
+.caseclosed{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.shift p{
+    width:200px;
+}
+
+.shifted p{
+    width:250px;
+}
+
+.caseclosed h4{
+    color:rgb(4, 4, 131);
+    font-size:16px;
+}
+
+.anotherone h4{
+    color:rgb(4, 4, 131);
+    font-size:16px;
+}
+
+.separateul{
+    display:flex;
+    justify-content:space-between;
+}
+
+#video{
+    width:"750";
+    height:"500";
+}
+
+.thirdsection{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0 30px;
+}
+
+.thirdwidth{
+    width:450px;
+    margin-top:70px;
+    margin-left:100px;
+
+}
+
+.connect{
+    color:orange;
+}
+
+.fourthsection{
+    background-color: rgb(245, 245, 245);
+    height:680px;
+    margin:30px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fourthwidth{
+    width:400px;
+    margin-right:250px;
+}
+
+.colorblue{
+    color:rgba(101, 101, 245, 0.932)
+}
+
+.white{
+    margin-top:-10px;
+    margin-left:25px;
+    padding:8px 20px;
+    outline:medium solid white;
+    border:2px inset whitesmoke;                                 
+    border-radius:4px;
+    background-color:white;
+    color:black;
+}
+
+.lastsection{
+    text-align: center;
+}
+
+.pad{
+    padding-top:15px;
+}
+
+.pads{
+    padding-top:7px;
+}
+
+.whites{
+    margin-top:-2px;
+    margin-left:25px;
+    padding:8px 20px;
+    outline:medium  white;
+    border:1px inset whitesmoke;                                 
+    border-radius:4px;
+    background-color:white;
+    color:black;
+
+}

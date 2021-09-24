@@ -1,0 +1,36 @@
+.alignform{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.alignform input{
+    width:400px;
+    height:35px;
+    border:1px solid grey;
+}
+
+.sweat{
+    margin-top:40px;
+}
+
+.sweet{
+    margin-top:30px;
+}
+
+.extra{
+    text-decoration:none;
+}
+
+.ash{
+    color:grey;
+    font-size: 12px;
+    text-align: center;
+}
+
+.david{
+    text-decoration:none;
+    font-size:12px;
+}

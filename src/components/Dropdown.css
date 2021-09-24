@@ -1,0 +1,56 @@
+.services-submenu.clicked {
+    display: none;
+}
+
+.services-submenu {
+    width:415px;
+    height:530px;
+    display:flex;
+    position: absolute;  /* to position the dropdown box where i want it to be */
+    top: -120px;
+}
+
+.casey{
+    width:235px;
+    background-color: #fff;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    padding-top:40px;
+    padding-left:10px;
+
+}
+.sippy p{
+    padding:-10px;
+    font-size:12px;
+    color:rgb(123, 209, 243);
+}
+
+.lovey{
+    background-color: grey;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px ;
+    padding-top:40px;
+    padding-left:10px;
+}
+
+.short{
+    font-size:14px;
+    color:black;
+}
+
+.shorty{
+    font-size:12px;
+    color:grey;
+}
+
+.smally{
+    font-size:14px;
+    color:rgb(123, 209, 243);
+}
+
+.smallied{
+    font-size:12px;
+    padding-bottom:-15px;
+    
+}
+  

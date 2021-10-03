@@ -8,7 +8,7 @@ function FooterContainer(){
                 <Footer.Row>
                     <Footer.Column>
                         <Footer.Link>
-                            <img src="images/flutterwave.svg" alt="logo" style={{ width: '150px' }} />
+                            <img to="/nexthome" src="images/flutterwave.svg" alt="logo" style={{ width: '150px' }} />
                         </Footer.Link>
                     </Footer.Column>
                     <br/>

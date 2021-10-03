@@ -75,7 +75,7 @@ function Navbar() {
                         })}
                         
 
-                        <li className="nav-item">
+                        <li className="nav-items">
                             {button && <Button buttonStyle="btn--outline">CREATE ACOUNT</Button>}
 
                         </li>

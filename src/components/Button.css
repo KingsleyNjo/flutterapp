@@ -12,11 +12,23 @@
 }
 
 .btn--primary{
-    background-color:orange;
-    color:red;
-    border:1px solid var(orange);
+    background-color:#f5a623;
+    color:#333;
+    border:1px solid var(#f5a623);
+    border-radius: 4px;
+    padding: 12px 22px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align:center;
 }
-
+.btn--primary:hover{
+    background-color:#b37409;
+    color:#333;
+    border:1px solid var(#b37409);
+    border-radius: 4px;
+    padding: 12px 22px;
+    text-align:center;
+}
 .btn-outline{
     background-color:dark rgba(187, 134, 36, 0.692);
     color:#fff;

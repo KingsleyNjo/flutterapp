@@ -13,8 +13,8 @@ const Middlevideo = () => {
                     </div>
 
                     <div className="word-arrange">
-                        <h1>So easy and seemless,<br /> you'll be up and running in minutes</h1>
-                        <p>In minutes, you can set up an online store straight from the flutterwave dashboard. Here's how:</p>
+                        <h1>So easy and seemless,you'll be up and running in minutes</h1>
+                        <p>In minutes, you can set up an online store straight from your flutterwave dashboard. Here's how:</p>
 
                         <div>
                             <Link to="/" className="middle-links">1. Create or Login to your Flutterwave account</Link>
@@ -24,7 +24,7 @@ const Middlevideo = () => {
 
                             <br />
 
-                            <Link to="/" className="middle-links">2. Go to (Store) on your dashboard and create a store</Link>
+                            <Link to="/" className="middle-links case">2. Go to (Store) on your dashboard and create a store</Link>
                             <p className="sameword">
                                 Create your store, add products, and specifications, including images and take your store online
                             </p>
@@ -39,7 +39,7 @@ const Middlevideo = () => {
 
                             <br />
 
-                            <Link to="/" className="middle-btn">CREATE A FLUTTERWAVE ACCOUNT</Link>
+                            <Link to="/signup" className="middle-btn">CREATE A FLUTTERWAVE ACCOUNT</Link>
                         </div>
 
 
@@ -49,12 +49,14 @@ const Middlevideo = () => {
 
                 <br />
 
-                <div className="middletwo">
-                    <p> <b className="bold">Everything</b> you need to provide the best <br />
-                        shopping experience for your customer.</p>
-                </div>
-                <div>
-                    <img src="images/file.png" style={{ width: '1050px', height: "500px", marginLeft: "140px", marginTop: "20px" }} alt="" />
+                <div className="missi">
+                    <div className="middletwo">
+                        <p> <b className="bold">Everything</b> you need to provide the best shopping experience for your customer.</p>
+                    </div>
+                    <div>
+                        <img src="images/file.png"/>
+                    </div>
+
                 </div>
 
                 <br />
@@ -66,7 +68,7 @@ const Middlevideo = () => {
                     </div>
 
                     <div className="wordpart">
-                        <h1>Fast and easy delivery <br /> with our partners.</h1>
+                        <h1>Fast and easy delivery with our partners.</h1>
                         <p>You no longer have to worry about cumbersome delivery set up, or payments with
                             Flutterwave Store, we have sorted it for you.</p>
 
@@ -99,7 +101,7 @@ const Middlevideo = () => {
 
                                 </div>
 
-                                <div>
+                                <div className="secondanchor">
                                     <ul>
                                         <li>Bank Account</li>
                                         <li>POS</li>
@@ -117,12 +119,11 @@ const Middlevideo = () => {
 
                 <div className="anotherseparate">
                     <div>
-                        <img src="images/phone.png" style={{ width: '400px', marginTop: "120px", marginLeft: "180px" , marginBottom:"40px"}} alt="" />
+                        <img src="images/phone.png"/>
                     </div>
 
                     <div className="arrangenow">
-                        <h1>Beautiful, smart and <br/>
-                        secure checkout.</h1>
+                        <h1>Beautiful, smart and secure checkout.</h1>
                         <p>Provides your users with the most seamless and delightful payment experience online.
                             With various payment methods enabled on Flutterwave, your business can cater to all your customer needs.
                         </p>
@@ -130,7 +131,7 @@ const Middlevideo = () => {
                         <ul>
                             <li>Fast, secure and seamless checkout experience</li>
                             <li>Supports <b>Andriod, ios</b> and <b>desktop</b></li>
-                            <li>Allows various payment methods, including Bank Transfers</li>
+                            <li className="ul">Allows various payment methods, including Bank Transfers</li>
                             <li>Compatible with eCommerce stores like <b>WooCommerce</b>,<b>Shopify</b></li>
                         </ul>
 

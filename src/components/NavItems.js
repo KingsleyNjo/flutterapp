@@ -9,7 +9,7 @@ export const navItems = [
     {
       id: 2,
       title: "Developers",
-      path: "",
+      path: "/nexthome",
       cName: "nav-item",
       ccName:"nav-link",
     },
@@ -23,7 +23,7 @@ export const navItems = [
     {
       id: 4,
       title: "Pricing",
-      path: "",
+      path: "/nexthome",
       cName: "nav-item",
       ccName:"nav-link",
     },

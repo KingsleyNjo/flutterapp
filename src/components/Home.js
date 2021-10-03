@@ -16,7 +16,7 @@ function Home() {
                 <div className="entry" style={{ backgroundImage: "url(/images/cafe.png)", backgroundSize: "center", height: "100vh", width: "100%" }}>
                     <Navbar />
                     <h1>Start Selling online now<br />with flutter wave store.</h1>
-                    <p>Set up your store in minutes and bring your brand your <br /><p className="clarify">brand to life.</p></p>
+                    <p className="life">Set up your store in minutes and bring your brand to life.</p>
 
                     <Link to="" className="design">
                         <button>SET UP YOUR STORE FOR FREE</button>
@@ -32,8 +32,8 @@ function Home() {
 
             <div className="lastsection">
                 <div>
-                    <h1>Get started now to grow your business.</h1>
-                    <p>Create an account or get in touch with us.</p>
+                    <p className="sweety">Get started now to grow your business.</p>
+                    <p className="sweet">Create an account or get in touch with us.</p>
                 </div>
 
                 <div className="pad">

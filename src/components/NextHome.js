@@ -10,7 +10,7 @@ function NextHome() {
     return (
         <>
             <div className="entry-container2">
-                <div className="entry" style={{ backgroundColor: "rgb(212, 245, 247)", backgroundSize: "center", height: "140vh", width: "100%" }}>
+                <div className="entry" style={{ backgroundColor: "#dadef5", backgroundSize: "center", height: "140vh", width: "100%" }}>
                     <Navbar />
 
                     <div class="navapart">
@@ -34,10 +34,10 @@ function NextHome() {
                         </div>
 
                         <div className="imagearrange">
-                            <img src="images/maxhelmet.png" style={{ width: "200px", paddingRight: "30px", transform: "translate(70px,100px)" }} alt="" />
-                            <img src="images/samke-mhlongo.png" style={{ width: "200px", paddingBottom: "20px" }} alt="" />
-                            <img src="images/restuarant.png" style={{ width: "290px", padding: "20px", borderRadius: "10px", transform: "translate(-70px,-10px)" }} alt="" />
-                            <img src="images/hygeia.png" style={{ width: "230px", height: "150px", borderRadius: "10px", transform: "translateX(-70px)" }} alt="" />
+                            <img className="imageone" src="images/maxhelmet.png" alt="" />
+                            <img className="imagetwo" src="images/samke-mhlongo.png" alt="" />
+                            <img className="imagethree" src="images/restuarant.png" alt="" />
+                            <img className="imagefour" src="images/hygeia.png" alt="" />
 
                         </div>
 
@@ -48,18 +48,18 @@ function NextHome() {
 
                 <div className="wholesection">
                     <div className="sectiontop">
-                        <h1>Create seamless payment <br /> experience for your customers</h1>
+                        <h1>Create seamless payment experience for your customers.</h1>
                     </div>
 
                     <div className="sectiondiv">
                         <div>
-                            <img src="images/pospayment.jpg" style={{ width: "450px", height: "550px", borderRadius: "10px", marginLeft: "120px" }} alt="love" />
+                            <img src="images/pospayment.jpg" style={{ width: "450px", height: "530px", borderRadius: "10px", marginLeft: "120px",marginTop:"150px" }} alt="love" />
                         </div>
 
                         <div className="spacediv">
                             <div className="spacep">
-                                <h1>Accept payments <br /> anywhere.</h1>
-                                <p>One platform that lets you sell whereever your customers <br /> are - online,in-person, anywhere in the world,and everywhere in-between </p>
+                                <h1>Accept payments anywhere.</h1>
+                                <p>One platform that lets you sell whereever your customers are - online,in-person, anywhere in the world,and everywhere in-between </p>
                             </div>
 
                             <div className="caseclosed">
@@ -77,7 +77,7 @@ function NextHome() {
                             <div className="anotherone">
                                 <h4>Reach more people with more payment methods</h4>
                                 <p>With little to no effort, remove the boundaries to scaling your
-                                    business <br /> and reach one customer with just one platform</p>
+                                    business and reach one customer with just one platform</p>
                             </div>
 
                             <div className="separateul">
@@ -116,9 +116,9 @@ function NextHome() {
 
                     <div className="thirdwidth">
                         <h1>Issue cards, create new businesses.</h1>
-                        <p>Create cards for your team, add spending limits, make then site-specific and so much more</p>
+                        <p className="thirdwid">Create cards for your team, add spending limits, make then site-specific and so much more</p>
 
-                        <div>
+                        <div className="thirdnew">
                             <h6 className="colorblue">Create virtual Mastercard and Visa cards</h6>
                             <p>Using the flutterwave API, you can easily create and manage virtual cards. Cards can be
                                 used instantly through mobile wallets and global websites
@@ -147,18 +147,18 @@ function NextHome() {
                     </video>
 
                     <div className="fourthwidth">
-                        <h1>Safety and security guaranteed.</h1>
-                        <p>At flutterwave, we take security seriously so every payment made on our platform is 100% secure,even
+                        <p className="need">Safety and security guaranteed.</p>
+                        <p className="wowwu">At flutterwave, we take security seriously so every payment made on our platform is 100% secure,even
                             exceeding industry standard.</p>
 
                         <div>
                             <h6 className="colorblue">ISO 27001 & 22301 Certification</h6>
-                            <p>The ISO 27001 & 22301 certification means that we have acceptible business practices and processes,
+                            <p className="wowwu">The ISO 27001 & 22301 certification means that we have acceptible business practices and processes,
                                 including a robust business continuity plan
                             </p>
 
                             <h6 className="colorblue">PA DSS & PCI DSS Compliant</h6>
-                            <p>This certification is proof that flutterwave gateway processor has satisfied higfhest level of
+                            <p className="wowwu">This certification is proof that flutterwave gateway processor has satisfied higfhest level of
                                 security audit
                             </p>
 

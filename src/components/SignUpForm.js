@@ -1,7 +1,7 @@
 import React, {Component} from "react";
+import axios from 'axios';
 import "./SignUpForm.css";
 import { Link } from "react-router-dom";
-import axios from "axios";
 
 class SignUpForm extends Component {
     constructor(){
@@ -25,6 +25,7 @@ class SignUpForm extends Component {
 
         
     }
+
     changeFullName(event){
         this.setState({
             fullName:event.target.value
@@ -72,10 +73,10 @@ class SignUpForm extends Component {
             words:this.state.words,
             password:this.state.password,
         }
-        axios.post('http://localhost:4000/signup', registered)
+        axios.post('http://localhost:4000/app/signup', registered)
          .then(response => console.log(response.data))
          .catch(error => console.log(error))
-        window.location='/'
+        window.location='/login'
 
     }
 
@@ -92,14 +93,14 @@ class SignUpForm extends Component {
                         <form onSubmit={this.onSubmit}>
                             <div>
                                 <label className="label">Full name</label><br />
-                                <input className="input" type="text" name="fullName" value={this.state.fullName} onChange={this.changeFullName} placeholder="Firstname Lastname" />
+                                <input className="input" type="text"  value={this.state.fullName} onChange={this.changeFullName} placeholder="Firstname Lastname" />
                             </div>
 
                             <br />
 
                             <div>
                                 <label className="label">Trading name</label><br />
-                                <input className="input" type="text" name="tradingname" value={this.state.tradingname} onChange={this.changeTradingName} />
+                                <input className="input" type="text" value={this.state.tradingname} onChange={this.changeTradingName} />
                             </div>
 
                             <br />
@@ -107,35 +108,35 @@ class SignUpForm extends Component {
                             <div>
 
                                 <label className="label">Email address</label><br />
-                                <input className="input" type="text" name="email" value={this.state.email} onChange={this.changeEmail} placeholder="aasir_makena@flutterwave.com" />
+                                <input className="input" type="text" value={this.state.email} onChange={this.changeEmail} placeholder="aasir_makena@flutterwave.com" />
                             </div>
 
                             <br />
 
                             <div>
                                 <label className="label">What country is your business based?</label><br />
-                                <input className="input" type="text" name="country" value={this.state.country} onChange={this.changeCountry} placeholder="Nigeria" />
+                                <input className="input" type="text" value={this.state.country} onChange={this.changeCountry} placeholder="Nigeria" />
                             </div>
 
                             <br />
 
                             <div>
                                 <label className="label">How did you hear about Flutterwave?</label><br />
-                                <input className="input" type="text" name="words" value={this.state.words} onChange={this.changeWord} />
+                                <input className="input" type="text" value={this.state.words} onChange={this.changeWord} />
                             </div>
 
                             <br />
 
                             <div>
                                 <label className="label">Get a referral code?(optional)</label><br />
-                                <input className="input" type="text" name="referral" placeholder="Enter referral code" />
+                                <input className="input" type="text" placeholder="Enter referral code" />
                             </div>
 
                             <br />
 
                             <div>
                                 <label className="label">Choose a Password</label><br />
-                                <input className="input" type="password" name="password" value={this.state.password} onChange={this.changePassword} placeholder="Please enter your password" />
+                                <input className="input" type="password" value={this.state.password} onChange={this.changePassword} placeholder="Please enter your password" />
                             </div>
 
                             <br />

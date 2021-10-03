@@ -14,20 +14,22 @@
     align-items:center;
     height:80px;
     max-width:1500px;
-    margin-top:-340px;
+    margin-top:-310px;  /* makes th nav-container to come down in the webpage and be seen it works
+    height:0px in the .nav-item below */
 }
 
 .navbar-logo{
     display:flex;
-    justify-self:start;
-    align-items:center;
+    justify-self:start;  /* justify-self:start is use to put it at the strating point in the webpage*/
+    align-items:center;  /*align-items:center is required to make it align in terms of the row axis */
     cursor:pointer;
     position:absolute;
-    left:-30px;
+    left:-30px;  /* position the navbar-logo className well */
+    transform: translateY(-7px);
 }
 
 .menu-icon {
-   display:none;
+    display:none;
 }
 
 .nav-menu{
@@ -37,11 +39,12 @@
     text-align:center;
     list-style:none;
     width:80vw;  /*separates the flutterwave logo from the navbar content (i.e give space in the middle)*/
-    margin-right:2rem;
+    margin-right:2px; /* shifts the whole navbar position to required position */
 }
 
 .nav-item{
-    height:20px;
+    height:0px;  /* makes th nav-item(which is everything inside the nav-link) to come down in the webpage and be seen it works
+    margin-top in the .navbar-container above */
 }
 
 .nav-link{
@@ -63,19 +66,80 @@
 }
 
 .fa-caret-down{
-    padding-left:5px;
-    margin-top:2px;
+    padding-left:5px; /* to position the caret well */
+    margin-top:2px;  /* to position the caret well */
 }
 
-@media screen and (max-width:320px) and (max-width:480px){
+@media screen and (max-width:767px){
+
+    .navbar-container{
+        padding-top:120px;
+        padding-left:700px;
+        position:relative;
+    }
+
+    .navbar-logo img{
+        cursor:pointer;
+        position:absolute;
+        left:206px;  /* show the flutterwave logo in the mobile view by shifting it rightward */ /*formerly 220px but i later redo it to 345px*/
+        
+    }
 
     .menu-icon{
         display:block;
-        position:absolute;
-        top:0;
-        right:0;
-        transform:translate(-100%,60%);
+        cursor:pointer;
+        font-size: 1.5rem;
+        transform: translate(-1050%,-15%); /* to make the menu-icon which is fas fa-times to be positioned as required */ 
+        /* the 3% for translateY made sure the fas fa-times remain in same position as fas fa-bars when fas fa-bars is clicked, so 
+        the fas fa-times doesnt change position away from where fas fa-bars is before being clicked */  
     }
+
+    .nav-menu{
+        display:flex; 
+        flex-direction:column; /* the nav-items is in column */
+        position: absolute;
+        top:-260px;      /* to hide the nav-menu items and links(i mean the Services,Resources etc) */
+        opacity:1;
+        width:40%; /* width of the nav-menu div (whole width section) */
+        height:320px;  /* height of the nav-menu div (whole width section) */
+
+    }
+
+    .nav-menu.active{
+        background-color:#98a19a;
+        left:220px;  /*to move the whole nav menu div leftwards when clicked */
+        top:140px;  /*to move the whole nav menu div upwards when clicked */
+        opacity:1;
+        z-index:1;
+
+    }
+
+    /* for styling nav-items(nav-link) inside the nav-menu */
+
+    .nav-item{
+        text-align: center;
+        padding:5px;
+        width:100%;
+        display:table;
+        color:black;
+    }
+    
+    
+
+    .fa-caret-down{
+        display:none;  /* to cancel in caret down icon in the nav-items menu and also make the fas fa-times to switch to fas fa-bars effectively */
+    }
+
+    .nav-items{
+        display:block;
+        padding-top:6px;
+        padding-bottom: 6px;
+        padding-right:88px;
+        
+    }
+    
+
+
     
 }
 

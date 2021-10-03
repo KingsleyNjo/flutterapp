@@ -7,7 +7,7 @@
     height:530px;
     display:flex;
     position: absolute;  /* to position the dropdown box where i want it to be */
-    top: -120px;
+    top: -100px;
     right:180px;
 }
 
@@ -18,20 +18,22 @@
     border-bottom-left-radius: 5px;
     padding-top:40px;
     padding-left:10px;
+    text-align:left;
 
 }
 .sippyy p{
     padding:-10px;
     font-size:12px;
-    color:rgb(123, 209, 243);
+    color:#2d9cdb;
 }
 
 .loveyy{
-    background-color: grey;
+    background-color: #f4f6f8;
     border-bottom-right-radius:5px;
     border-top-right-radius:5px ;
     padding-top:40px;
     padding-left:10px;
+    text-align:left;
 }
 
 .shortt{
@@ -41,17 +43,18 @@
 
 .shortyy{
     font-size:12px;
-    color:grey;
+    color:#828282;
 }
 
 .smallyy{
     font-size:14px;
-    color:rgb(123, 209, 243);
+    color:#2d9cdb
 }
 
 .smalliedd{
     font-size:12px;
     padding-bottom:-15px;
+    color:#333;
     
 }
 .chicky{

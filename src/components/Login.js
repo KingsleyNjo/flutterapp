@@ -2,8 +2,7 @@ import React from "react";
 import axios from 'axios';
 import "./Login.css";
 import {Link} from "react-router-dom";
-
-
+import Country from "./Country";
 
 
 class Login extends React.Component {
@@ -27,9 +26,14 @@ class Login extends React.Component {
         axios.post('http://localhost:4000/app/login', request)
             .then(response => {
                 alert(response.data.message)
+                if(response.data.message==="Password incorrect!" || response.data.message==="User not found!"){
+                    window.location="/404";
+                }
+                else{
+                    window.location="/"
+                }
             })
             .catch(err => console.log(err));
-        window.location = '/'
 
     }
     render() {
@@ -63,8 +67,9 @@ class Login extends React.Component {
 
                     </form>
 
-
                 </div>
+
+                <Country/>
 
 
             </div>

@@ -22,7 +22,7 @@ class Login extends React.Component {
             email: document.getElementById('email').value,
             password: document.getElementById('password').value
         }
-        axios.post('http://localhost:4000/app/login', request)
+        axios.post('https://waveclone.herokuapp.com/app/login', request)
             .then(response => {
                 alert(response.data.message)
                 if(response.data.message==="Password incorrect!" || response.data.message==="User not found!"){

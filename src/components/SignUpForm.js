@@ -73,7 +73,7 @@ class SignUpForm extends Component {
             words:this.state.words,
             password:this.state.password,
         }
-        axios.post('http://localhost:4000/app/signup', registered)
+        axios.post('https://waveclone.herokuapp.com/app/signup', registered)
          .then(response => console.log(response.data))
          .catch(error => console.log(error))
         window.location='/login'

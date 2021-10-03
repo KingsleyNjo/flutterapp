@@ -29,7 +29,7 @@ class Login extends React.Component {
                     window.location="/404";
                 }
                 else{
-                    window.location="/"
+                    window.location="/nexthome"
                 }
             })
             .catch(err => console.log(err));
